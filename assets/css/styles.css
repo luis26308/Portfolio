@@ -1,0 +1,25 @@
+img {
+    width: 200px;
+    height: 200px;
+ 
+}
+
+main {
+    padding-top: 5%;
+   
+}
+
+.col-sm-3 {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+body {
+    background-image: url("../images/minimal_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio1 {
+}
