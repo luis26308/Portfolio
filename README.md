@@ -2,4 +2,4 @@
 
 ## Overview
 
-This my initial go at a portfolio site, it includes an about me, a portfolio, and a contact page. included are also three links to differnet social media sites.
+Hi my name is Luis! im a budding web developer whos excited to exapnd my skills in the field. Take a look at some of my very first projects right here in my portfolio.
