@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="assets\css\styles.css" type=text/css>
 
@@ -23,6 +23,7 @@
                 <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
                 <a class="nav-link active" href="contact.html">Contact</a>
+                <a class="nav-link" href="assets\Resume\Luis_Diaz_Resume.pdf" target="_blank" download>Resume</a>
             </div>
         </div>
     </nav>
@@ -32,13 +33,14 @@
         <!--Section heading-->
         <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
         <!--Section description-->
-  
+
 
         <div class="row justify-content-center">
 
             <!--Grid column-->
             <div class="col-md-9 mb-md-0 mb-5" id="center1">
-                <form id="contact-form">
+                <form id="contact-form" action="mailto:luisg.diaz117@gmail.com" method="post"
+                    enctype="multipart/form-data">
 
                     <!--Grid row-->
                     <div class="row">
@@ -102,21 +104,20 @@
         </div>
 
     </section>
-
-
+    
     <footer class="container">
         <div class="row justify-content-center ">
-            <div class="col-sm-3">
-                <a href="https://github.com/luis26308" class="btn btn-outline-dark btn-md"><i
+            <div class="col-md-3">
+                <a href="https://github.com/luis26308" alt="github" class="btn btn-outline-dark btn-md"><i
                         class="fab fa-github fa-3x"></i></a>
 
 
-                <a href="https://ua.bootcampcontent.com/Luis26308" class="btn btn-outline-dark btn-md"><i
+                <a href="https://ua.bootcampcontent.com/Luis26308" alt="gitlab" class="btn btn-outline-dark btn-md"><i
                         class="fab fa-gitlab fa-3x"></i></a>
 
 
-                <a href="https://www.linkedin.com/in/luis-diaz-6a5980187/" class="btn btn-outline-dark btn-md"><i
-                        class="fab fa-linkedin fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/luis-diaz-6a5980187/" alt="linkedin"
+                    class="btn btn-outline-dark btn-md"><i class="fab fa-linkedin fa-3x"></i></a>
             </div>
         </div>
     </footer>
@@ -138,4 +139,3 @@
 </body>
 
 </html>
-
