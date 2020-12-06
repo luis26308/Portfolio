@@ -9,11 +9,11 @@ body {
 	width: 90%;
 	max-width: 800px;
 	background: #f3f3f3;
-	margin: 30px auto;
+	margin: 25px auto;
 }
 
 .jumbotron {
-	padding: 25px 35px;
+	padding: 10px 35px;
 	border-bottom: 2px solid #cf8a05;
 	background: #ededed;
 }
@@ -25,4 +25,27 @@ body {
 section {
 	border-bottom: 1px solid #dedede;
 	padding: 20px 0 0;
+}
+
+.sectionTitle{
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #cf8a05;
+}
+
+.subDetails {
+	font-style: italic;
+}
+
+.keySkills {
+	list-style-type: none;
+	column-count:3;
+	margin-bottom: 20px;
+	font-size: 1em;
+}
+
+#contactDetails {
+	list-style-type: none;
+	padding-top: 10px;
 }
